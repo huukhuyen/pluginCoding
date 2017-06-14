@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://webkaru.net/jquery-plugin/sources/zoomer/demo.html -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Zoomer のデモでーす。">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Zoomer - jQuery Plugin Demo</title>
+  <link href="jquery.fs.zoomer.css" rel="stylesheet" type="text/css" media="all">
+  <style>
+  .zoomer_wrapper {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 500px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  </style>
+  <script src="jquery.min.js"></script>
+  <script src="jquery.fs.zoomer.js"></script>
+  <script>
+  $(document).ready(function() {
+    $(".zoomer_basic").zoomer();
+  });
+  </script>
+</head>
+
+<body>
+  <h1>Zoomer のデモでーす。</h1>
+  <div class="zoomer_wrapper zoomer_basic">
+    <div class="zoomer">
+      <div class="zoomer-positioner" style="transform: translate3d(953px, 251px, 0px);">
+        <div class="zoomer-holder" style="height: 2848px; width: 4272px; transform: translate3d(-50%, -50%, 0px) scale(0.155665, 0.155899); opacity: 1;"><img class="zoomer-image" src="iphone6-plus.jpg"></div>
+      </div>
+      <div class="zoomer-controls zoomer-controls-bottom"><span class="zoomer-previous">‹</span><span class="zoomer-zoom-out">-</span><span class="zoomer-zoom-in">+</span><span class="zoomer-next">›</span></div>
+    </div>
+  </div>
+</body>
+
+</html>

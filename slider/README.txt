@@ -1,4 +1,5 @@
 Tổng hợp slider sưu tầm:
+------------------------
 + Owl carousel https://owlcarousel2.github.io/OwlCarousel2/
 
 + ParallaxContentSlider https://tympanus.net/Development/ParallaxContentSlider/
